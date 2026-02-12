@@ -3,18 +3,21 @@
   "private": true,
   "version": "1.0.0",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "next dev",
+    "build": "next build",
     "lint": "eslint .",
-    "serve": "vite preview"
+    "start": "next start"
   },
   "dependencies": {
-    "lucide-react": "^0.20.0",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "@notionhq/client": "^5.4.0",
+    "lucide-react": "^0.366.0",
+    "next": "^16.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",
+    "@types/node": "^24.10.1",
     "@types/react": "^18.3.18",
     "@types/react-dom": "^18.3.5",
     "@vitejs/plugin-react": "^4.3.4",
@@ -26,6 +29,7 @@
     "globals": "^15.14.0",
     "postcss": "^8.5.3",
     "tailwindcss": "^3.4.17",
+    "typescript": "^5.9.3",
     "vite": "^6.2.0"
   }
 }

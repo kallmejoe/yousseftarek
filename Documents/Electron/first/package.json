@@ -1,1 +1,0 @@
-    "deve": "npm-run-all --parallel dev:react dev:electron",
