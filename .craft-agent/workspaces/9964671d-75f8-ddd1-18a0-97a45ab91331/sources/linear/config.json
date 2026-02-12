@@ -1,0 +1,18 @@
+{
+  "id": "linear_8f3c1b2a",
+  "name": "Linear",
+  "slug": "linear",
+  "enabled": true,
+  "provider": "linear",
+  "type": "mcp",
+  "icon": "https://linear.app/static/favicon.svg",
+  "tagline": "Issue tracking, project status, and issue creation (full access)",
+  "mcp": {
+    "url": "https://mcp.linear.app",
+    "authType": "oauth"
+  },
+  "isAuthenticated": false,
+  "connectionStatus": "untested",
+  "createdAt": 1707739835000,
+  "updatedAt": 1707739835000
+}

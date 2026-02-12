@@ -1,0 +1,10 @@
+{
+  "allowedMcpPatterns": [
+    { "pattern": "list", "comment": "Allow list operations" },
+    { "pattern": "get", "comment": "Allow get/read operations" },
+    { "pattern": "search", "comment": "Allow search operations" },
+    { "pattern": "create", "comment": "Allow create operations for full access" },
+    { "pattern": "update", "comment": "Allow update operations for full access" },
+    { "pattern": "delete", "comment": "Allow delete operations for full access" }
+  ]
+}
